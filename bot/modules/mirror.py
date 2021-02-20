@@ -169,7 +169,7 @@ class MirrorListener(listeners.MirrorListeners):
                 msg += f'\n\n🗣️<b> CC • </b>{uname}'
                 msg += f'\n\n🗃️<i> For accessing G-Drive Links Join our Google Group...</i>'
             
-                msg +=f'\n\n<i> Uploaded Successfully</i>✅'
+                msg +=f'\n\n<i> Uploaded Successfully </i>✅'
             try:
 
                 fs_utils.clean_download(download_dict[self.uid].path())
